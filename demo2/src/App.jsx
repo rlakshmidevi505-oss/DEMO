@@ -7,13 +7,13 @@ import './App.css'
 
 function App() {
 
-//spread operator
+
 const first = [1, 2, 3]
 const second = [...first, 4, 5, 6] // we can use the spread operator to combine two arrays
 
 const fruit = ['apple', 'banana', 'orange'] // map function needs a key, so we can use the item itself as the key
   
-  // classes
+  
   class Person {
     constructor(name, age) {
       this.name = name
@@ -26,7 +26,7 @@ const fruit = ['apple', 'banana', 'orange'] // map function needs a key, so we c
   }
   const p = new Person("LAKSHMIDEVI", 20)
 
-  // Destructuring
+
 
   const [a, b, c] = first 
 
